@@ -23,5 +23,4 @@ class SettingsParser:
                 'MinimalBoardRefreshTime'),
             min_replies=self.config['SETTINGS'].getint('MinimumReplies')
         )
-        print(vars(settings))
         return settings
